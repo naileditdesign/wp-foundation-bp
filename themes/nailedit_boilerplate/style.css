@@ -1,0 +1,114 @@
+/*   
+Theme Name: This is Foundation 5 & Wordpress, Don't they make a lovely couple!
+Description: A responsive framework for Wordpress brought to life by Nailed It Design.
+Author: Jack Foster & Adam Jackson
+Author URI: http://www.naileditdesign.com
+Version: 1.1.0
+*/
+
+
+/* Typography
+-------------------------------------------------- */
+
+h1, h2, h3 h4, h5, h6 {}
+
+body, li, a, b, p, strong {}
+
+.top-bar-section li a:not(.button) {}
+
+/* Master Styles
+-------------------------------------------------- */
+
+/* Backgrounds
+-------------------------------------------------- */
+
+/* Enter Page/Style Name
+-------------------------------------------------- */
+
+/* Enter Page/Style Name
+-------------------------------------------------- */
+
+/* Enter Page/Style Name
+-------------------------------------------------- */
+
+/* Enter Page/Style Name
+-------------------------------------------------- */
+
+/* Enter Page/Style Name
+-------------------------------------------------- */
+
+
+
+/* Cookie bar
+-------------------------------------------------- */ 
+
+#cookie-bar {background:#04244f; height:40px; line-height:24px; color:#eeeeee; text-align:center; padding:10px 0;}
+#cookie-bar.fixed {position:fixed; top:0; left:0; width:100%;}
+#cookie-bar p {margin:0; padding:0; font-size: 12px; }
+#cookie-bar a {color:#ffffff; display:inline-block; border-radius:3px; text-decoration:none; padding:0 6px; margin-left:8px;}
+#cookie-bar .cb-enable {background:#053b84;}
+#cookie-bar .cb-enable:hover {background:#034bad;}
+#cookie-bar .cb-disable {background:#990000;}
+#cookie-bar .cb-disable:hover {background:#bb0000;}
+#cookie-bar .cb-policy {background:#0033bb;}
+#cookie-bar .cb-policy:hover {background:#0055dd;}
+
+
+
+/* Global Images For Wordpress
+-------------------------------------------------- */
+
+img.alignright {float:right; margin:0 0 1em 1em;  height:auto; padding-bottom:10px;}
+img.alignleft {float:left; margin:0 1em 1em 0; border:none; height:auto;   }
+img.aligncenter {display: block; margin-left: auto; margin-right: auto; }
+img.alignnone { height:auto; }
+a img.alignright {float:right; margin:0 0 1em 1em; height:auto; padding-bottom:10px; }
+a img.alignleft {float:left; margin:0 1em 1em 0; border:none;  height:auto;  }
+a img.aligncenter {display: block;  margin-left: auto; margin-right: auto;   height:auto;}
+
+
+/* Internet Explorer Fixes
+-------------------------------------------------- */
+
+.lt-ie10 .left-off-canvas-menu {
+  left: -250px; }
+.lt-ie10 .right-off-canvas-menu {
+  right: -250px; }
+.lt-ie10 .move-left > .inner-wrap {
+  right: 250px; }
+.lt-ie10 .move-right > .inner-wrap {
+  left: 250px; }
+
+/* Responsive Fixes
+-------------------------------------------------- */
+
+
+/* Small screens */
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+/* Medium screens */
+@media only screen and (min-width: 40.063em) { 
+
+.move-left a.exit-off-canvas:hover {
+      background: rgba(255, 255, 255, 0.05); }
+
+	} /* min-width 641px, medium screens */
+
+/* Responsive =========================== */
+
+@media (max-width: 1160px) {
+}
+
+@media (max-width: 800px) {
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 320px) {
+}
