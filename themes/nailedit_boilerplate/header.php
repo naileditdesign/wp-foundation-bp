@@ -11,9 +11,8 @@
         <title><?php wp_title('&mdash;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
         
         <!-- Add CSS Files Here -->
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
-        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/normalize.css" type="text/css" />
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/foundation.min.css" type="text/css" />
         <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" type="text/css" />
@@ -68,7 +67,7 @@
 
   <div class="large-12 columns">
 
-    <div class="header-container bg-darkblue hide-for-small hide-for-medium">
+    <div class="header-container hide-for-small hide-for-medium">
 
       <div class="logo">
 
@@ -110,7 +109,7 @@
       </section>
 
       <section class="middle tab-bar-section">
-        <h1 class="title">Foundation</h1>
+        <h1 class="title">Add Title</h1>
       </section>
 
       <section class="right-small">

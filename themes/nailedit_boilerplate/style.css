@@ -10,23 +10,73 @@ Version: 1.1.0
 /* Typography
 -------------------------------------------------- */
 
-h1, h2, h3 h4, h5, h6 {}
+/* Heading */
 
-body, li, a, b, p, strong {}
+h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a { font-family: 'Open Sans', sans-serif; color: #ea237c; }
 
-.top-bar-section li a:not(.button) {}
+h1 { font-size: 24px; }
 
-/* Master Styles
+h2 { font-size: 22px; }
+
+h3 { font-size: 20px; }
+
+h4 { font-size: 18px; }
+
+h5 { font-size: 16px; }
+
+h6 { font-size: 14px; }
+
+/* Body Text */
+
+p { font-size: 12px; }
+
+li, a, b, p, strong { font-family: 'Open Sans', sans-serif; }
+
+/* Header
 -------------------------------------------------- */
+
+.logo { display: table; margin: auto; float: none; }
 
 /* Backgrounds
 -------------------------------------------------- */
 
-/* Enter Page/Style Name
+/* Nav
 -------------------------------------------------- */
 
-/* Enter Page/Style Name
+/* Master Background Edit */
+
+.top-bar, 
+.top-bar-section ul, 
+.top-bar-section ul li:hover, 
+.top-bar-section li a:not(.button), 
+.top-bar-section li a:not(.button):hover, 
+.no-js .top-bar-section ul li:hover>a { background: #ea237c; }
+
+/* Top Bar Style */
+
+.top-bar { margin-bottom: 20px; }
+
+/* Social Feed
 -------------------------------------------------- */
+
+#socialSide h3 { float: left; width: 100%; padding-bottom: 10px; margin-bottom: 10px; border-bottom: solid 1px #f1f1f1; font-size: 18px; }
+
+.social-feed { float: left; width: 100%; margin: 0 0 10px 0; }
+
+.social-feed ul { float: left; width: 100%; margin: 0; }
+
+.social-feed li {
+width: 70px;
+height: 70px;
+list-style: none;
+float: left;
+overflow: hidden;
+margin-right: 7px;
+}
+
+.social-feed li:last-child { margin-right: 0; }
+
+.social-feed li img{ width: 100%; }
 
 /* Enter Page/Style Name
 -------------------------------------------------- */
@@ -98,6 +148,9 @@ body, li, a, b, p, strong {}
 #cookie-bar .cb-disable:hover {background:#bb0000;}
 #cookie-bar .cb-policy {background:#0033bb;}
 #cookie-bar .cb-policy:hover {background:#0055dd;}
+
+/* Sharer */
+
 
 
 
